@@ -1,0 +1,36 @@
+.select {
+    border: 1px solid darkgray;
+    border-radius: 3px;
+    text-align: left;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.select__list {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    border: 1px solid darkgray;
+    margin-top: 10px;
+    margin-left: -1px;
+    background-color: white;
+}
+
+.select__list__search-bar {
+    padding: 5px;
+}
+
+.select__list__search-bar input {
+    width: calc(100% - 14px);
+    font-size: 18px;
+    padding: 5px;
+}
+
+.select__list__item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.select__list__item:hover {
+    background-color: lightgray;
+}

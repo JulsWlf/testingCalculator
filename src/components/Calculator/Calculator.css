@@ -1,0 +1,12 @@
+.calculator {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border: 1px solid lightgrey;
+}
+
+.calculator__left,
+.calculator__right {
+    padding: 40px;
+    flex-grow: 1;
+}
